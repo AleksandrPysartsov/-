@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>САЗ</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_text">
+        <h1>Харківський національний автомобільно-дорожній університет</h1>
+        <h2>Кафедра автомобілів ім. А.Б.Гредескула</h2>
+        <h2>Дисципліна: Спеціалізовані автотранспортні засоби</h2>
+      </div>
+      <img src="./img/ХАДИ.jpg" alt="ХАДІ" />
+    </div>
+    <div class="body">
+      <div class="tiket">
+        <h3 class="tiket_title">Вибір Білета</h3>
+        <div class="tiket-wrapper">
+          <div class="tiket_text">
+            <label>Прізвище</label>
+            <input type="text" class="surname" id="surname" />
+            <button id="btn_tiket">Білет</button>
+          </div>
+          <div class="tiket_input">
+            <input
+              type="text"
+              class="tiket_input_number"
+              id="tiket_input_number"
+              disabled
+            />
+            <button id="crossBtn">
+              <img
+                src="./img/icomoon-free_cross.png"
+                alt="Cross"
+                class="cross"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="students_list">
+        <h3 class="tiket_title">Список присутніх</h3>
+        <!-- <input type="text" class="students_item" id="students_list" /> -->
+        <!-- <textarea name="students_item" id="students_list"> -->
+        <ol id="students_list"></ol>
+        <!-- </textarea> -->
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
